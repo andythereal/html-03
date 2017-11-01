@@ -58,7 +58,9 @@
                     <input type="radio" name="How Do You Feel About Medicinal Marijuana Use?" value="medicinal marijuana should NOT be allowed"> medicinal marijuana should NOT be allowed
                 </label>
                 <p><b>4. Short Answer: To the Best of Your Knowledge, Describe How Marijuana Use Affects the Brain</b></p>
-                <input type="text" name="Short Answer: To the Best of Your Knowledge, Describe How Marijuana Use Affects the Brain" required placeholder="Your Answer">
+                <!--<input type="text" name="Short Answer: To the Best of Your Knowledge, Describe How Marijuana Use Affects the Brain" required placeholder="Your Answer">-->
+                <p>Your Answer:</p>
+                <textarea name="Short Answer: To the Best of Your Knowledge, Describe How Marijuana Use Affects the Brain" required></textarea>
                 <p><b>5. What Kind of Effect Do You Think the Legalization of Recreational Marijuana Would Have on Society?</b></p>
                 <label>
                     <input type="radio" name="What Kind of Effect Do You Think the Legalization of Recreational Marijuana Would Have on Society?" value="no change on society"> no change on society
@@ -94,11 +96,11 @@
                 </label>
                 <p><b>9. How Many People Do You Know Who Smoke Marijuana (Not Including Yourself)?</b></p>
                 <label>
-                    <input type="radio" name="How Many People Do You Know Who Smoke Marijuana (Not Including Yourself)?" value="0-5"> 0-5
+                    <input type="radio" name="How Many People Do You Know Who Smoke Marijuana (Not Including Yourself)?" value="0-5"> 0 to 5
                 </label>
                 <br>
                 <label>
-                    <input type="radio" name="How Many People Do You Know Who Smoke Marijuana (Not Including Yourself)?" value="6-10"> 6 to 10 times
+                    <input type="radio" name="How Many People Do You Know Who Smoke Marijuana (Not Including Yourself)?" value="6-10"> 6 to 10 
                 </label>
                 <br>
                 <label>
@@ -131,11 +133,13 @@
                     <input type="radio" name="client-age" value="41 and over"> 41 and over
                 </label>
                 <p><b>12. Please Enter Your Email (optional)</b></p>
-                <input type="email" name="client-email" placeholder="youremail@mail.com">
+                <input type="email" name="client-email" placeholder="yourname@mail.com">
             </fieldset>
             <br>
-            <input type="submit" value="SUBMIT">
-            <input type="reset" value="reset">
+            <!-- <input type="submit" value="SUBMIT">
+            <input type="reset" value="reset"> -->
+            <button type="submit"><b>SUBMIT</b></button>
+            <button type="reset">reset</button>
         </form>
         <footer>
             <p><i>Thank You For Your Answers!</i></p>
